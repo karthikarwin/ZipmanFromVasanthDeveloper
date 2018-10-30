@@ -17,7 +17,7 @@ _Install all the NodeJS packages which are required for building._
 npm install
 ```
 
-_Start by freshly building the website, visit here for preview and do the required modifications._
+_Start by freshly building the website, visit_ <a target="_blank" href="http://localhost:4037">_here_</a> _for preview and do the required modifications._
 ```
 npm run start
 ```
@@ -40,6 +40,11 @@ npm run build
 _Once completed, finally push to the public repository._
 ```
 npm run push
+```
+
+_Finally, push the source code to the master branch._
+```
+git add --all; git commit; git push
 ```
 #### How It Started
 I saw a YouTube video, in which a file with extension ".zip", was extracted by double clicking on it (in macOS High Sierra). After searching for a week, on how to extract a ZIP file by double clicking on it in Windows, I created this software. With it, to extract a ZIP file, just double click it and it should be extracted in a folder with same name as the ZIP file.
