@@ -1,0 +1,38 @@
+{
+	"name": "zipman",
+	"version": "2.0.0",
+	"description": "The official website for ZipMan",
+	"scripts": {
+		"start": "gulp",
+		"clean": "gulp clean",
+		"build": "gulp build",
+		"clone": "git clone --single-branch --branch \"gh-pages\" https://github.com/vasanthdeveloper/ZipMan.git \"dist\"",
+		"push": "cd ./dist && git add --all && git commit && git push"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://vasanthdeveloper@bitbucket.org/vasanthdeveloper/zipman.git"
+	},
+	"keywords": [
+		"Website",
+		"ZipMan"
+	],
+	"author": "Vasanth Srivtsa",
+	"license": "ISC",
+	"homepage": "vasanthdeveloper.github.io/ZipMan",
+	"dependencies": {
+		"del": "^3.0.0",
+		"gulp": "^3.9.1",
+		"gulp-compile-handlebars": "^0.6.1",
+		"gulp-csso": "^3.0.1",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-if": "^2.0.2",
+		"gulp-imagemin": "^4.1.0",
+		"gulp-live-server": "0.0.31",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-uglify": "^3.0.1",
+		"node-sass": "^4.9.4",
+		"run-sequence": "^2.2.1"
+	}
+}
